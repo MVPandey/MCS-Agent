@@ -1,5 +1,5 @@
 # MCS-Agent
-A self-improving AI agent that uses Monte Carlo Tree Search for context-engineering and iterative refinement.
+A self-improving AI agent repo with the end goal of incorporating Monte Carlo Tree Search for context-engineering and iterative refinement.
 
 ## What this is
 
