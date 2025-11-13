@@ -20,3 +20,7 @@ Goal is something like -> create chatnbot -> save context over time/learn what t
 ## What I'm not doing (yet)
 
 I'm explicitly avoiding external dependencies on existing agentic frameworks for now. Most of them make assumptions about architecture or add complexity that I don't need yet. Once I have the core working and understand the problem better, I might integrate with other tools, but starting simple lets me actually understand what's happening.
+
+### Phase 1
+
+It'll start with a general AI chatbot that has access to some basic tools (web search, math, connect to MCP servers dynamically, etc). But the prompt will have a <MCTS_CONTEXT> block, which will be refined and chosen overtime, perhaps even asyncronously through search + exploration.
